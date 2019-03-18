@@ -1,0 +1,2 @@
+# RestfulWCFTest
+Testing WCF configuration
