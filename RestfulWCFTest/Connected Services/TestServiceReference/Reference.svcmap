@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3fac9ae8-8666-4ba7-abe7-8018e4cd1ae7" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8082/RestfulWCFTest" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="TestService.wsdl" MetadataType="Wsdl" ID="0803ae54-eb83-4b6e-bcb9-8b7d506da18b" SourceId="1" SourceUrl="http://localhost:8082/RestfulWCFTest?wsdl" />
+    <MetadataFile FileName="RestfulWCFTest.xsd" MetadataType="Schema" ID="afc0c73b-a6fe-423f-b8a5-bb421850e2bb" SourceId="1" SourceUrl="http://localhost:8082/RestfulWCFTest?xsd=xsd1" />
+    <MetadataFile FileName="RestfulWCFTest.disco" MetadataType="Disco" ID="6e4f812a-d0e3-445e-b338-cd1f5615a6bf" SourceId="1" SourceUrl="http://localhost:8082/RestfulWCFTest?disco" />
+    <MetadataFile FileName="RestfulWCFTest1.xsd" MetadataType="Schema" ID="8a9fc7e0-4fd6-4089-8579-7550a43a3989" SourceId="1" SourceUrl="http://localhost:8082/RestfulWCFTest?xsd=xsd2" />
+    <MetadataFile FileName="RestfulWCFTest2.xsd" MetadataType="Schema" ID="0f574ee4-8e0e-4a64-9729-6d685f783b10" SourceId="1" SourceUrl="http://localhost:8082/RestfulWCFTest?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
